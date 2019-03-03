@@ -1,0 +1,84 @@
+#board {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(9, 60px);
+    grid-template-rows: repeat(9, 60px);
+    width: 540px;
+    height: 540px;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    font-size: 72px;
+    margin: auto;
+}
+
+#comment {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+#text {
+    font-size: 48px;
+}
+
+#tempat {
+    display: flex;
+    width: 1020px;
+    margin: auto;
+}
+
+#tempat div {
+    flex: 1;
+}
+
+.block {
+    background-color: burlywood;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#blackHands {
+    position: relative;
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(4, 60px);
+    width: 240px;
+    height: 240px;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+#whiteHands {
+    background-color: burlywood;
+    display: grid;
+    grid-template-columns: repeat(4, 60px);
+    grid-template-rows: repeat(4, 60px);
+    position: relative;
+    width: 240px;
+    height: 240px;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin-top: 300px;
+}
+
+.hand {
+    background-color: burlywood;
+    padding: 10px;
+}
+
+.piece {
+    width: 40px;
+    height: 40px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    align-content: center;
+}

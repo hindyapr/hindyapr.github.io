@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="shogi.css">
+    <title>Shogi board</title>
+</head>
+
+<body>
+    <h1>SHOGI</h1>
+    <p id="demo"></p>
+    <div id="comment">
+        <p id="text"></p>
+    </div>
+    <div id="tempat">
+        <div id="blackHands">
+            <div class="hand">
+                <div id="blackHands16" class="piece" onclick="pencet('blackHands16')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands15" class="piece" onclick="pencet('blackHands15')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands14" class="piece" onclick="pencet('blackHands14')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands13" class="piece" onclick="pencet('blackHands13')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands12" class="piece" onclick="pencet('blackHands12')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands11" class="piece" onclick="pencet('blackHands11')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands10" class="piece" onclick="pencet('blackHands10')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands9" class="piece" onclick="pencet('blackHands9')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands8" class="piece" onclick="pencet('blackHands8')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands7" class="piece" onclick="pencet('blackHands7')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands6" class="piece" onclick="pencet('blackHands6')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands5" class="piece" onclick="pencet('blackHands5')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands4" class="piece" onclick="pencet('blackHands4')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands3" class="piece" onclick="pencet('blackHands3')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands2" class="piece" onclick="pencet('blackHands2')"></div>
+            </div>
+            <div class="hand">
+                <div id="blackHands1" class="piece" onclick="pencet('blackHands1')"></div>
+            </div>
+        </div>
+        <div id="board" class="test">
+            <div class="block">
+                <div id="block1" class="piece" onclick="pencet('block1')"></div>
+            </div>
+            <div class="block">
+                <div id="block2" class="piece" onclick="pencet('block2')"></div>
+            </div>
+            <div class="block">
+                <div id="block3" class="piece" onclick="pencet('block3')"></div>
+            </div>
+            <div class="block">
+                <div id="block4" class="piece" onclick="pencet('block4')"></div>
+            </div>
+            <div class="block">
+                <div id="block5" class="piece" onclick="pencet('block5')"></div>
+            </div>
+            <div class="block">
+                <div id="block6" class="piece" onclick="pencet('block6')"></div>
+            </div>
+            <div class="block">
+                <div id="block7" class="piece" onclick="pencet('block7')"></div>
+            </div>
+            <div class="block">
+                <div id="block8" class="piece" onclick="pencet('block8')"></div>
+            </div>
+            <div class="block">
+                <div id="block9" class="piece" onclick="pencet('block9')"></div>
+            </div>
+            <div class="block">
+                <div id="block10" class="piece" onclick="pencet('block10')"></div>
+            </div>
+            <div class="block">
+                <div id="block11" class="piece" onclick="pencet('block11')"></div>
+            </div>
+            <div class="block">
+                <div id="block12" class="piece" onclick="pencet('block12')"></div>
+            </div>
+            <div class="block">
+                <div id="block13" class="piece" onclick="pencet('block13')"></div>
+            </div>
+            <div class="block">
+                <div id="block14" class="piece" onclick="pencet('block14')"></div>
+            </div>
+            <div class="block">
+                <div id="block15" class="piece" onclick="pencet('block15')"></div>
+            </div>
+            <div class="block">
+                <div id="block16" class="piece" onclick="pencet('block16')"></div>
+            </div>
+            <div class="block">
+                <div id="block17" class="piece" onclick="pencet('block17')"></div>
+            </div>
+            <div class="block">
+                <div id="block18" class="piece" onclick="pencet('block18')"></div>
+            </div>
+            <div class="block">
+                <div id="block19" class="piece" onclick="pencet('block19')"></div>
+            </div>
+            <div class="block">
+                <div id="block20" class="piece" onclick="pencet('block20')"></div>
+            </div>
+            <div class="block">
+                <div id="block21" class="piece" onclick="pencet('block21')"></div>
+            </div>
+            <div class="block">
+                <div id="block22" class="piece" onclick="pencet('block22')"></div>
+            </div>
+            <div class="block">
+                <div id="block23" class="piece" onclick="pencet('block23')"></div>
+            </div>
+            <div class="block">
+                <div id="block24" class="piece" onclick="pencet('block24')"></div>
+            </div>
+            <div class="block">
+                <div id="block25" class="piece" onclick="pencet('block25')"></div>
+            </div>
+            <div class="block">
+                <div id="block26" class="piece" onclick="pencet('block26')"></div>
+            </div>
+            <div class="block">
+                <div id="block27" class="piece" onclick="pencet('block27')"></div>
+            </div>
+            <div class="block">
+                <div id="block28" class="piece" onclick="pencet('block28')"></div>
+            </div>
+            <div class="block">
+                <div id="block29" class="piece" onclick="pencet('block29')"></div>
+            </div>
+            <div class="block">
+                <div id="block30" class="piece" onclick="pencet('block30')"></div>
+            </div>
+            <div class="block">
+                <div id="block31" class="piece" onclick="pencet('block31')"></div>
+            </div>
+            <div class="block">
+                <div id="block32" class="piece" onclick="pencet('block32')"></div>
+            </div>
+            <div class="block">
+                <div id="block33" class="piece" onclick="pencet('block33')"></div>
+            </div>
+            <div class="block">
+                <div id="block34" class="piece" onclick="pencet('block34')"></div>
+            </div>
+            <div class="block">
+                <div id="block35" class="piece" onclick="pencet('block35')"></div>
+            </div>
+            <div class="block">
+                <div id="block36" class="piece" onclick="pencet('block36')"></div>
+            </div>
+            <div class="block">
+                <div id="block37" class="piece" onclick="pencet('block37')"></div>
+            </div>
+            <div class="block">
+                <div id="block38" class="piece" onclick="pencet('block38')"></div>
+            </div>
+            <div class="block">
+                <div id="block39" class="piece" onclick="pencet('block39')"></div>
+            </div>
+            <div class="block">
+                <div id="block40" class="piece" onclick="pencet('block40')"></div>
+            </div>
+            <div class="block">
+                <div id="block41" class="piece" onclick="pencet('block41')"></div>
+            </div>
+            <div class="block">
+                <div id="block42" class="piece" onclick="pencet('block42')"></div>
+            </div>
+            <div class="block">
+                <div id="block43" class="piece" onclick="pencet('block43')"></div>
+            </div>
+            <div class="block">
+                <div id="block44" class="piece" onclick="pencet('block44')"></div>
+            </div>
+            <div class="block">
+                <div id="block45" class="piece" onclick="pencet('block45')"></div>
+            </div>
+            <div class="block">
+                <div id="block46" class="piece" onclick="pencet('block46')"></div>
+            </div>
+            <div class="block">
+                <div id="block47" class="piece" onclick="pencet('block47')"></div>
+            </div>
+            <div class="block">
+                <div id="block48" class="piece" onclick="pencet('block48')"></div>
+            </div>
+            <div class="block">
+                <div id="block49" class="piece" onclick="pencet('block49')"></div>
+            </div>
+            <div class="block">
+                <div id="block50" class="piece" onclick="pencet('block50')"></div>
+            </div>
+            <div class="block">
+                <div id="block51" class="piece" onclick="pencet('block51')"></div>
+            </div>
+            <div class="block">
+                <div id="block52" class="piece" onclick="pencet('block52')"></div>
+            </div>
+            <div class="block">
+                <div id="block53" class="piece" onclick="pencet('block53')"></div>
+            </div>
+            <div class="block">
+                <div id="block54" class="piece" onclick="pencet('block54')"></div>
+            </div>
+            <div class="block">
+                <div id="block55" class="piece" onclick="pencet('block55')"></div>
+            </div>
+            <div class="block">
+                <div id="block56" class="piece" onclick="pencet('block56')"></div>
+            </div>
+            <div class="block">
+                <div id="block57" class="piece" onclick="pencet('block57')"></div>
+            </div>
+            <div class="block">
+                <div id="block58" class="piece" onclick="pencet('block58')"></div>
+            </div>
+            <div class="block">
+                <div id="block59" class="piece" onclick="pencet('block59')"></div>
+            </div>
+            <div class="block">
+                <div id="block60" class="piece" onclick="pencet('block60')"></div>
+            </div>
+            <div class="block">
+                <div id="block61" class="piece" onclick="pencet('block61')"></div>
+            </div>
+            <div class="block">
+                <div id="block62" class="piece" onclick="pencet('block62')"></div>
+            </div>
+            <div class="block">
+                <div id="block63" class="piece" onclick="pencet('block63')"></div>
+            </div>
+            <div class="block">
+                <div id="block64" class="piece" onclick="pencet('block64')"></div>
+            </div>
+            <div class="block">
+                <div id="block65" class="piece" onclick="pencet('block65')"></div>
+            </div>
+            <div class="block">
+                <div id="block66" class="piece" onclick="pencet('block66')"></div>
+            </div>
+            <div class="block">
+                <div id="block67" class="piece" onclick="pencet('block67')"></div>
+            </div>
+            <div class="block">
+                <div id="block68" class="piece" onclick="pencet('block68')"></div>
+            </div>
+            <div class="block">
+                <div id="block69" class="piece" onclick="pencet('block69')"></div>
+            </div>
+            <div class="block">
+                <div id="block70" class="piece" onclick="pencet('block70')"></div>
+            </div>
+            <div class="block">
+                <div id="block71" class="piece" onclick="pencet('block71')"></div>
+            </div>
+            <div class="block">
+                <div id="block72" class="piece" onclick="pencet('block72')"></div>
+            </div>
+            <div class="block">
+                <div id="block73" class="piece" onclick="pencet('block73')"></div>
+            </div>
+            <div class="block">
+                <div id="block74" class="piece" onclick="pencet('block74')"></div>
+            </div>
+            <div class="block">
+                <div id="block75" class="piece" onclick="pencet('block75')"></div>
+            </div>
+            <div class="block">
+                <div id="block76" class="piece" onclick="pencet('block76')"></div>
+            </div>
+            <div class="block">
+                <div id="block77" class="piece" onclick="pencet('block77')"></div>
+            </div>
+            <div class="block">
+                <div id="block78" class="piece" onclick="pencet('block78')"></div>
+            </div>
+            <div class="block">
+                <div id="block79" class="piece" onclick="pencet('block79')"></div>
+            </div>
+            <div class="block">
+                <div id="block80" class="piece" onclick="pencet('block80')"></div>
+            </div>
+            <div class="block">
+                <div id="block81" class="piece" onclick="pencet('block81')"></div>
+            </div>
+
+        </div>
+        <div id="whiteHands">
+            <div class="hand">
+                <div id="whiteHands1" class="piece" onclick="pencet('whiteHands1')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands2" class="piece" onclick="pencet('whiteHands2')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands3" class="piece" onclick="pencet('whiteHands3')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands4" class="piece" onclick="pencet('whiteHands4')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands5" class="piece" onclick="pencet('whiteHands5')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands6" class="piece" onclick="pencet('whiteHands6')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands7" class="piece" onclick="pencet('whiteHands7')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands8" class="piece" onclick="pencet('whiteHands8')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands9" class="piece" onclick="pencet('whiteHands9')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands10" class="piece" onclick="pencet('whiteHands10')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands11" class="piece" onclick="pencet('whiteHands11')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands12" class="piece" onclick="pencet('whiteHands12')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands13" class="piece" onclick="pencet('whiteHands13')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands14" class="piece" onclick="pencet('whiteHands14')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands15" class="piece" onclick="pencet('whiteHands15')"></div>
+            </div>
+            <div class="hand">
+                <div id="whiteHands16" class="piece" onclick="pencet('whiteHands16')"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="shogi.js"></script>
+</body>
+
+</html>

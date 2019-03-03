@@ -1,0 +1,62 @@
+body {
+    background-color: grey;
+}
+
+#full {
+    background-color: green;
+    display: grid;
+    grid-template-columns: repeat(8, 80px);
+    grid-template-rows: repeat(8, 80px);
+    margin: auto;
+    width: 640px;
+    height: 640px;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+}
+
+h1 {
+    margin: auto;
+    font-size: 72px;
+}
+
+#comment {
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+#text {
+    font-size: 36px;
+}
+
+.pin {
+    background-color: green;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 9px;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    -webkit-border-radius: 70px;
+    -moz-border-radius: 70px;
+    border-radius: 70px;
+    background: green;
+    align-content: center;
+}
+
+#pin36 {
+    background: black
+}
+
+#pin29 {
+    background: black
+}
+
+#pin28 {
+    background: white
+}
+
+#pin37 {
+    background: white
+}
